@@ -2,13 +2,19 @@ Robocode
 ========
 _Build the best, destroy the rest!_
 
+
+Blog posts:
+- Installation
+- Robocode
+
+
 Github: [robo-code/robocode](https://github.com/robo-code/robocode)
 
 **Version: 1.9.3.3**  
 Prerequisites:  
 - [Java JDK 6+](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [robocode-1.9.3.3-setup.jar](https://sourceforge.net/projects/robocode/files/robocode/1.9.3.3/)
-
+- [Their Wiki :)](http://robowiki.net/wiki/Main_Page)
 
 Or follow the official [step by step instructions](http://robowiki.net/wiki/Robocode/System_Requirements).
 
@@ -66,15 +72,28 @@ When you are ready for battle, use: Compiler > Compiler (Control + B) in the Sou
 ### In Eclipse
 
 New Project:  
-- Libraries > Add External JARs...: Add `libs/robocode.jar`
+- Libraries > Add External JARs...: Add `libs/robocode.jar`.
+	- External annotations > Edit: Javadoc are bundled with Robocode.
+- Do not create a `module-info.java`.
 
+New Java Class:  
+Superclass: `robocode.Robot`
 
-Add the `bin` folder in the Robocode UI:  
+Add the project's `bin` folder in the Robocode UI:  
 Options > Preferences > Development Options > Add  
-
 
 Be sure your final robot is [packaged](http://robowiki.net/wiki/Robocode/Package_Robot)!
 A `*` appears ingame next to a robot's name if it is a development version.
+
+#### Debugging
+
+Run as > Run configurations > Java Application
+
+- Main class: `robocode.Robocode`
+- Arguments > VM arguments: `-Xmx512M -Dsun.io.useCanonCaches=false -Ddebug=true`
+- Arguments > Working directory > Other > Robocode install path (ex: c:\robocode)
+
+Do not point to a directory where the .NET plug-in is installed!
 
 
 ### In Visual Studio
@@ -198,8 +217,20 @@ Battling other bots:
 - [How to download other Robots](http://robowiki.net/wiki/Robocode/Learning_from_Robots)
 - [Some Super Robots](http://robowiki.net/wiki/Robocode/Downloading_Robots#Robots_to_download)
 - [Open Source Robots](http://www.robowiki.net/wiki/Category:Open_Source_Bots)
-- [Robocode articles](http://robowiki.net/wiki/Robocode/Articles)
 
+
+## Moving on
+
+Learning to:  
+- [Movement](http://robowiki.net/wiki/Movement)
+- [Use the radar](http://robowiki.net/wiki/Radar)
+- [Targeting](http://robowiki.net/wiki/Targeting)
+- [More tutorials](http://robowiki.net/wiki/Tutorials)
+
+
+Other resources:  
+- [Robocode articles](http://robowiki.net/wiki/Robocode/Articles)
+- [Graphical Debugging](http://robowiki.net/wiki/Robocode/Graphical_Debugging)
 
 
 ## CLI
@@ -208,6 +239,12 @@ Battling other bots:
 
 
 [wiki](http://robowiki.net/wiki/Robocode/Console_Usage)
+
+
+## TODO
+
+
+http://robowiki.net/wiki/Category:Terminology
 
 
 
