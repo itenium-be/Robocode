@@ -43,8 +43,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvancedIteniumRobot.cs" />
+    <Compile Include="Chappie.cs" />
+    <Compile Include="Learning\01-Strafer.cs" />
     <Compile Include="IteniumRobot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SampleCs\Corners.cs" />
+    <Compile Include="SampleCs\Crazy.cs" />
+    <Compile Include="SampleCs\Fire.cs" />
+    <Compile Include="SampleCs\Interactive.cs" />
+    <Compile Include="SampleCs\MyFirstJuniorRobot.cs" />
+    <Compile Include="SampleCs\MyFirstRobot.cs" />
+    <Compile Include="SampleCs\PaintingRobot.cs" />
+    <Compile Include="SampleCs\PointD.cs" />
+    <Compile Include="SampleCs\RamFire.cs" />
+    <Compile Include="SampleCs\RobotColors.cs" />
+    <Compile Include="SampleCs\SittingDuck.cs" />
+    <Compile Include="SampleCs\SpinBot.cs" />
+    <Compile Include="SampleCs\Target.cs" />
+    <Compile Include="SampleCs\Tracker.cs" />
+    <Compile Include="SampleCs\TrackFire.cs" />
+    <Compile Include="SampleCs\VelociRobot.cs" />
+    <Compile Include="SampleCs\Walls.cs" />
+    <Compile Include="Snippets\RobotSnippets.cs" />
+    <Compile Include="TheDuck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug.battle">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
