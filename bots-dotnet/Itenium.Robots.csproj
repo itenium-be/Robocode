@@ -66,6 +66,7 @@
     <Compile Include="SampleCs\VelociRobot.cs" />
     <Compile Include="SampleCs\Walls.cs" />
     <Compile Include="Snippets\RobotSnippets.cs" />
+    <Compile Include="Snippets\TooCloseToWallCustomEvent.cs" />
     <Compile Include="TheDuck.cs" />
   </ItemGroup>
   <ItemGroup>
