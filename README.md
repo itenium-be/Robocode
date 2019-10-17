@@ -5,6 +5,8 @@ _Build the best, destroy the rest!_
 Get ready for the itenium roborumble :)  
 - [Blog post: Installation & Debugging](https://itenium.be/blog/productivity/robocode-installation/)
 - [Blog post: Basic Tutorial](https://itenium.be/blog/productivity/robocode-tutorial/)
+- [Your First AdvancedBot](https://github.com/itenium-be/Robocode/blob/master/bots-dotnet/Learning/01-Strafer.cs): A starting point for creating your bot  
+- [Next Steps](https://github.com/itenium-be/Robocode/tree/master/bots-dotnet/Learning): Where to go from there  
 
 Github: [robo-code/robocode](https://github.com/robo-code/robocode)
 
