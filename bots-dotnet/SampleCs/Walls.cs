@@ -88,7 +88,7 @@ namespace SampleCs
             // wall, so that we do not start moving up it until it's gone.
             if (peek)
             {
-                Scan();
+                // Scan();
             }
         }
     }
