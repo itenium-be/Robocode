@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E51E2A30-74C9-417B-8F1B-6A739FCEBCB3}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		..\README.md = ..\README.md
 		robocode.dll = robocode.dll
 		robocode.xml = robocode.xml
 	EndProjectSection

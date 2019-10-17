@@ -43,7 +43,7 @@
 
 [RoboRunner](http://robowiki.net/wiki/RoboRunner) / [RoboJogger](http://robowiki.net/wiki/RoboJogger): Automated battle running  
 [Graphical Debugging](http://robowiki.net/wiki/Robocode/Graphical_Debugging): Draw what your bot is up to on the battlefield  
-
+[SuperSampleBots](http://robowiki.net/wiki/Category:Super_Sample_Bots): To learn from and practice against  
 
 # DrussGT
 
